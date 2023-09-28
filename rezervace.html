@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PrimaPenzion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="headerContainer"> <!-- Záhlaví stránky -->
+            <div class="headerLine"> <!-- Název a hlavní ikony -->
+                <a href="tel:+420773348790">+420 773 348 790</a>
+                <div class="headerIkony">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="headerLogo">
+                <a href="index.html">
+                    Prima<br />Penzion
+                </a>
+            </div>
+            <div class="headerMenu"> <!-- Menu stránku -->
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="kontakty.html">Kontakt</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="rezervace.html">Rezervace</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="headerIMG">
+        </div>
+    </header>
+    <section> <!-- Text stránky -->
+        <div class="container rezervace">
+            <div class="vzkazMain">
+                <h1>Rezervace</h1>
+                <form action="#" method="GET">
+                    <input type="text" name="jmeno" placeholder="Jméno">
+                    <input type="text" name="prijmeni" placeholder="Příjmení">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <select name="deti">
+                        <option>Počet dětí</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="dospely">
+                        <option>Počet dospělých</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <input type="date" name="prijezd">
+                    <input type="date" name="odjezd">
+                    <textarea name="vzkaz" placeholder="Napište nám..."></textarea>
+                    <input type="submit" value="Odeslat">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer> <!-- zápatí stránky -->
+        <div class="footerContainer">
+            <div class="headerMenu"> <!-- Menu stránku -->
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="kontakty.html">Kontakt</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="rezervace.html">Rezervace</a></li>
+                </ul>
+            </div>
+            <div class="headerLogo">
+                <a href="index.html">
+                    Prima<br />Penzion
+                </a>
+            </div>
+            <p>
+                <i class="fas fa-map-marked-alt"></i>
+                <a href="https://goo.gl/maps/35p9GQxVv5VrGfQR7" target="_blank"><strong>Prima Penzion</strong>, Jablonského 2, Praha 7</a>
+            </p>
+            <p>
+                <i class="fas fa-phone-alt fa-rotate-90"></i>
+                <a href="+420773348790">+420 773 348 790</a>
+            </p>
+            <p>
+                <i class="fas fa-at fa-spin"></i>
+                <span>  
+                    info@primapenzion.cz
+                </span>
+            </p>
+            <p>
+                <div class="footerIkony">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram  fa-2x"></i></a>
+                </div>
+            </p>
+        </div>
+        <a class="button_to_top" href="#top">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+    </footer>
+</body>
+</html>
